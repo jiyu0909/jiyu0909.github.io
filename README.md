@@ -22,7 +22,7 @@
 <body class="bg-pink-100 text-pink-900 font-sans">
   <div class="max-w-5xl mx-auto p-6">
     <header class="mb-8">
-      <h1 class="text-4xl font-extrabold text-center">2-9반 유치원 🤍</h1>
+      <h1 class="text-4xl font-extrabold text-center">2-9반 알리미미 🤍</h1>
     </header>
     <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- 은지쌤 말씀 -->
@@ -105,7 +105,7 @@
         </section>
         <!-- 오른쪽: 급식 -->
         <section class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-2xl font-bold text-pink-700 mb-4">급식 🤍</h2>
+          <h2 class="text-2x2 font-bold text-pink-700 mb-4">급식 🤍</h2>
           <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
                   class="w-full h-[400px] rounded-xl border"
                   frameborder="0"></iframe>
