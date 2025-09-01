@@ -75,23 +75,34 @@
         </ol>
       </section>
 
-      <!-- 시간표와 급식 -->
-      <div class="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
-        <!-- 왼쪽: 시간표 -->
-        <section class="bg-white rounded-2xl shadow p-4 sm:p-6">
-          <h2 class="text-xl sm:text-2xl font-bold text-pink-700 mb-2 sm:mb-4">2-9 시간표 🤍</h2>
-          <div class="overflow-x-auto">
-            <table class="min-w-full border border-gray-300 rounded-xl text-xs sm:text-sm md:text-base">
-              <thead>
-                <tr class="bg-pink-200 text-pink-900">
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">교시</th>
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">월</th>
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">화</th>
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">수</th>
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">목</th>
-                  <th class="px-3 py-0.5 sm:px-4 sm:py-1.5">금</th>
-                </tr>
-              </thead>
+      <!-- 시간표와 급식 -->  <div class="lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-6">         
+      <!-- 왼쪽: 시간표 -->         <section class="bg-white rounded-2xl shadow p-6">           
+      <h2 class="text-2xl font-bold text-pink-700 mb-4">2-9 시간표 🤍</h2>           
+      <div class="mt-4 overflow-x-auto">             
+      <table class="w-full text-left border rounded-xl">               
+      <thead>                 
+      <tr class="bg-pink-200">                   
+      <th class="px-3 py-2">교시</th>                   
+      <th class="px-3 py-2">월</th>                   
+      <th class="px-3 py-2">화</th>                   
+      <th class="px-3 py-2">수</th>                   
+      <th class="px-3 py-2">목</th>                   
+      <th class="px-3 py-2">금</th>                 
+      </tr>               
+      </thead>               
+      <tbody>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">1교시</td><td class="px-3 py-2 font-medium">H.R</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">영어2</td></tr>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">2교시</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-C</td></tr>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">3교시</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">수학2</td></tr>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">4교시</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td></tr>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">5교시</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">진로</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">창체</td></tr>               
+      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">6교시</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">창체</td></tr>               
+      <tr><td class="px-3 py-2 text-center text-pink-600">7교시</td><td class="px-3 py-2 font-medium">체육</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">-</td><td class="px-3 py-2 font-medium">-</td></tr>             
+      </tbody>             
+      </table>           
+      </div>         
+      </section>  
+      <!-- 오른쪽: 급식 --> <section class="bg-white rounded-2xl shadow p-6"> <h2 class="text-2x2 font-bold text-pink-700 mb-4">급식 🤍</h2> <!-- iframe 외부 삽입 불가 가능성 있음. 작동 확인 필요 --> <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830" class="w-full h-[400px] rounded-xl border" frameborder="0" title="급식 메뉴"></iframe> </section>     <!-- 시험 범위 -->     <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6 mt-6">       <h2 class="text-2xl font-bold text-pink-700 mb-4">시험 범위 🤍</h2>       <div class="overflow-x-auto">         <table class="w-full text-left border rounded-xl">           <thead>             <tr class="bg-pink-200">               <th class="px-3 py-2">과목</th>               <th class="px-3 py-2">시험 범위</th>             </tr>           </thead>           <tbody>             <tr class="border-b"><td class="px-3 py-2 font-medium">독서</td><td>교과서:<br>올림포스:<br>모의고사:</td></tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>교과서:<br>올림포스:<br>모의고사:</td></tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">정법</td><td></td></tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">윤사</td><td></td></tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">진로영어</td><td></td></tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td>               <td>                1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제 ❌<br>                2. 25학년도 9월 전국연합 18~40번<br>                3. 외부지문 5문제               </td>             </tr>             <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원 해수의 성질</td></tr>             <tr><td class="px-3 py-2 font-medium">물리</td><td>1단원. 역학과 에너지</td></tr>           </tbody>         </table>       </div>     </section>   </div>   <!-- 푸터 --> <footer class="text-center text-pink-600 text-sm mt-9">   제작: 20919 이지유 </footer> </body> </html>
               <tbody>
                 <tr class="border-b"><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 text-center text-pink-600">1교시</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">H.R</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">확률과 통계</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">2-A</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">독서</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">영어2</td></tr>
                 <tr class="border-b"><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 text-center text-pink-600">2교시</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">독서</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">2-A</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">수학2</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">확률과 통계</td><td class="px-3 py-0.5 sm:px-4 sm:py-1.5 font-medium">2-C</td></tr>
