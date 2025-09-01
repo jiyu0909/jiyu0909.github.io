@@ -105,7 +105,7 @@
         </section>
  <!-- 오른쪽: 급식 -->
 <section class="bg-white rounded-2xl shadow p-6">
-  <h2 class="text-2xl font-bold text-pink-700 mb-4">급식 🤍</h2>
+  <h2 class="text-2x2 font-bold text-pink-700 mb-4">급식 🤍</h2>
   <!-- iframe 외부 삽입 불가 가능성 있음. 작동 확인 필요 -->
   <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
           class="w-full h-[400px] rounded-xl border"
@@ -132,9 +132,9 @@
             <tr class="border-b"><td class="px-3 py-2 font-medium">진로영어</td><td></td></tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td>
               <td>
-                1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제 ❌<br>
-                2. 25학년도 9월 전국연합 18~40번<br>
-                3. 외부지문 5문제
+               1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제 ❌<br>
+               2. 25학년도 9월 전국연합 18~40번<br>
+               3. 외부지문 5문제
               </td>
             </tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원 해수의 성질</td></tr>
@@ -145,7 +145,7 @@
     </section>
   </div>
   <!-- 푸터 -->
-<footer class="text-center text-pink-600 text-sm mt-6">
+<footer class="text-center text-pink-600 text-sm mt-9">
   제작: 20919 이지유
 </footer>
 </body>
