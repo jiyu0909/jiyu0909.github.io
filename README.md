@@ -23,7 +23,7 @@
 <body class="bg-pink-100 text-pink-900 font-sans">
   <div class="max-w-5xl mx-auto p-6">
     <header class="mb-8">
-      <h1 class="text-4xl font-extrabold text-center">2-9반 알리미미 🤍</h1>
+      <h1 class="text-4xl font-extrabold text-center">2-9반 알리미🤍</h1>
     </header>
     <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- 은지쌤 말씀 -->
