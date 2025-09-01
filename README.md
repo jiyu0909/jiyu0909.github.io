@@ -103,14 +103,16 @@
             </table>
           </div>
         </section>
-  <!-- 오른쪽: 급식 -->
-      <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
-        class="w-full h-[400px] rounded-xl border"
-        frameborder="0"></iframe>
+ <!-- 오른쪽: 급식 -->
+<section class="bg-white rounded-2xl shadow p-6">
+  <h2 class="text-2xl font-bold text-pink-700 mb-4">급식 🤍</h2>
+  <!-- iframe 외부 삽입 불가 가능성 있음. 작동 확인 필요 -->
+  <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
+          class="w-full h-[400px] rounded-xl border"
+          frameborder="0"
+          title="급식 메뉴"></iframe>
+</section>
 
-        </section>
-      </div>
-    </main>
     <!-- 시험 범위 -->
     <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6 mt-6">
       <h2 class="text-2xl font-bold text-pink-700 mb-4">시험 범위 🤍</h2>
