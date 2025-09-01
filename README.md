@@ -104,11 +104,10 @@
           </div>
         </section>
   <!-- 오른쪽: 급식 -->
-        <section class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-2xl font-bold text-pink-700 mb-4">급식 🤍</h2>
-          <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
-                  class="w-full h-[400px] rounded-xl border"
-                  frameborder="0"></iframe>
+      <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
+        class="w-full h-[400px] rounded-xl border"
+        frameborder="0"></iframe>
+
         </section>
       </div>
     </main>
