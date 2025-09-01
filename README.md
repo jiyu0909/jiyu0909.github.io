@@ -77,27 +77,75 @@
 
       <!-- 시간표와 급식 -->  <div class="lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-6">         
       <!-- 왼쪽: 시간표 -->         <section class="bg-white rounded-2xl shadow p-6">           
-      <h2 class="text-2xl font-bold text-pink-700 mb-4">2-9 시간표 🤍</h2>           
-      <div class="mt-4 overflow-x-auto">             
-      <table class="w-full text-left border rounded-xl">               
-      <thead>                 
-      <tr class="bg-pink-200">                   
-      <th class="px-3 py-2">교시</th>                   
-      <th class="px-3 py-2">월</th>                   
-      <th class="px-3 py-2">화</th>                   
-      <th class="px-3 py-2">수</th>                   
-      <th class="px-3 py-2">목</th>                   
-      <th class="px-3 py-2">금</th>                 
-      </tr>               
-      </thead>               
-      <tbody>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">1교시</td><td class="px-3 py-2 font-medium">H.R</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">영어2</td></tr>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">2교시</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-C</td></tr>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">3교시</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">수학2</td></tr>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">4교시</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td></tr>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">5교시</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">진로</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">창체</td></tr>               
-      <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">6교시</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">창체</td></tr>               
-      <tr><td class="px-3 py-2 text-center text-pink-600">7교시</td><td class="px-3 py-2 font-medium">체육</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">-</td><td class="px-3 py-2 font-medium">-</td></tr>             
+ <!-- 주간 시간표 -->
+      <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
+  <h2 class="text-2xl font-bold text-pink-700">2-9 시간표🤍</h2>
+  <div class="mt-4 overflow-x-auto">
+    <table class="w-full text-left border rounded-xl overflow-hidden">
+      <thead>
+        <tr class="bg-pink-200">
+          <th class="px-2 py-2 text-sm text-pink-800">교시</th>
+          <th class="px-2 py-2 text-sm text-pink-800">월</th>
+          <th class="px-2 py-2 text-sm text-pink-800">화</th>
+          <th class="px-2 py-2 text-sm text-pink-800">수</th>
+          <th class="px-2 py-2 text-sm text-pink-800">목</th>
+          <th class="px-2 py-2 text-sm text-pink-800">금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-b">
+          <td class="px-2 py-2 text-center text-sm text-pink-600">1교시</td>
+          <td class="px-2 py-2 font-medium">H.R</td>
+          <td class="px-2 py-2 font-medium">확률과 통계</td>
+          <td class="px-2 py-2 font-medium">2-A</td>
+          <td class="px-2 py-2 font-medium">독서</td>
+          <td class="px-2 py-2 font-medium">영어2</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-2 py-2 text-center text-sm text-pink-600">2교시</td>
+          <td class="px-2 py-2 font-medium">독서</td>
+          <td class="px-2 py-2 font-medium">2-A</td>
+          <td class="px-2 py-2 font-medium">수학2</td>
+          <td class="px-2 py-2 font-medium">확률과 통계</td>
+          <td class="px-2 py-2 font-medium">2-C</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-3 py-2 text-center text-sm text-pink-600">3교시</td>
+          <td class="px-3 py-2 font-medium">영어2</td>
+          <td class="px-3 py-2 font-medium">수학2</td>
+          <td class="px-3 py-2 font-medium">독서</td>
+          <td class="px-3 py-2 font-medium">2-C</td>
+          <td class="px-3 py-2 font-medium">수학2</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-3 py-2 text-center text-sm text-pink-600">4교시</td>
+          <td class="px-3 py-2 font-medium">2-A</td>
+          <td class="px-3 py-2 font-medium">영어2</td>
+          <td class="px-3 py-2 font-medium">2-B</td>
+          <td class="px-3 py-2 font-medium">일본어</td>
+          <td class="px-3 py-2 font-medium">2-B</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-3 py-2 text-center text-sm text-pink-600">5교시</td>
+          <td class="px-3 py-2 font-medium">일본어</td>
+          <td class="px-3 py-2 font-medium">2-B</td>
+          <td class="px-3 py-2 font-medium">진로</td>
+          <td class="px-3 py-2 font-medium">2-A</td>
+          <td class="px-3 py-2 font-medium">창체</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-3 py-2 text-center text-sm text-pink-600">6교시</td>
+          <td class="px-3 py-2 font-medium">2-B</td>
+          <td class="px-3 py-2 font-medium">2-C</td>
+          <td class="px-3 py-2 font-medium">영어2</td>
+          <td class="px-3 py-2 font-medium">수학2</td>
+          <td class="px-3 py-2 font-medium">창체</td>
+        </tr>
+        <tr class="border-b">
+          <td class="px-3 py-2 text-center text-sm text-pink-600">7교시</td>
+          <td class="px-3 py-2 font-medium">체육</td>
+          <td class="px-3 py-2 font-medium">독서</td>
+          <td class="px-3 py-2 font-medium">2-C</td>    
       </tbody>             
       </table>           
       </div>         
