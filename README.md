@@ -28,14 +28,14 @@
       <!-- 은지쌤 말씀 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-4 sm:p-6">
         <h2 class="text-xl sm:text-2xl font-bold text-pink-700">은지쌤의 말씀 🤍</h2>
-        <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3">
-          <li class="p-2 sm:p-3 rounded-xl border bg-pink-50">
+        <ul class="mt-3 sm:mt-3 space-y-2 sm:space-y-2">
+          <li class="p-2 sm:p-2 rounded-xl border bg-pink-50">
             <p class="text-sm sm:text-base">2학기 중간고사 준비! 열공하기~</p>
           </li>
-          <li class="p-2 sm:p-3 rounded-xl border bg-pink-50">
+          <li class="p-2 sm:p-2 rounded-xl border bg-pink-50">
             <p class="text-sm sm:text-base">수업시간, 자습시간 잠자기 ❌</p>
           </li>
-          <li class="p-2 sm:p-3 rounded-xl border bg-pink-50">
+          <li class="p-2 sm:p-2 rounded-xl border bg-pink-50">
             <p class="text-sm sm:text-base">담요 다리에만 덮고 추우면 체육복 후드 입기</p>
           </li>
         </ul>
