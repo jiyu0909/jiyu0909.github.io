@@ -169,9 +169,12 @@
     </ul>
   </div>
   <section class="bg-white rounded-2xl shadow p-6">
-  <h2 class="text-xl font-bold text-pink-600 mb-2">오늘의 급식</h2>
-  <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden; border:1px solid #ddd; border-radius:8px;">
-    <iframe
+          <h2 class="text-2xl font-bold text-pink-700">급식🤍</h2>
+          <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
+                  class="w-full h-[400px] mt-4 rounded-xl border"
+                  frameborder="0"></iframe>
+        </section>
+      </div>
       src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
       style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;">
     </iframe>
