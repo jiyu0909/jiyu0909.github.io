@@ -29,7 +29,7 @@
       <!-- 은지쌤 말씀 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">은지쌤의 말씀 🤍</h2>
-        <ul class="mt-4 space-y-3">
+        <ul class="mt-4 space-y-4">
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">2학기 중간고사 준비! 열공하기~</p>
           </li>
@@ -180,8 +180,8 @@
       </div>
     </main>
     <!-- 시험 범위 -->
-    <section class="lg:col-span-3 bg-white rounded-2xl shadow p-3 mt-3">
-      <h2 class="text-2xl font-bold text-pink-700 mb-4">시험 범위 🤍</h2>
+    <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
+      <h2 class="text-2xl font-bold text-pink-700 mb-3">시험 범위 🤍</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-left border rounded-xl">
           <thead>
@@ -197,9 +197,9 @@
             <tr class="border-b"><td class="px-3 py-2 font-medium">윤사</td><td></td></tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">진로영어</td><td></td></tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>
-            1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제❌<br>
-                2. 25학년도 9월 전국연합 18~40번<br>
-                3. 외부지문 5문제</td>
+1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제❌<br>
+2. 25학년도 9월 전국연합 18~40번<br>
+3. 외부지문 5문제</td>
             </tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원 해수의 성질</td></tr>
             <tr><td class="px-3 py-2 font-medium">물리</td><td>1단원. 역학과 에너지</td></tr>
