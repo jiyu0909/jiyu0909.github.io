@@ -76,40 +76,106 @@
         </ol>
       </section>
       <!-- 시간표와 급식 -->
-      <div class="lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <!-- 왼쪽: 시간표 -->
-        <section class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-2xl font-bold text-pink-700 mb-4">2-9 시간표 🤍</h2>
-          <div class="mt-4 overflow-x-auto">
-            <table class="w-full text-left border rounded-xl">
-              <thead>
-                <tr class="bg-pink-200">
-                  <th class="px-3 py-2">교시</th>
-                  <th class="px-3 py-2">월</th>
-                  <th class="px-3 py-2">화</th>
-                  <th class="px-3 py-2">수</th>
-                  <th class="px-3 py-2">목</th>
-                  <th class="px-3 py-2">금</th>
-                </tr>
-              </thead>
-              <tbody>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">1교시</td><td class="px-3 py-2 font-medium">H.R</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">영어2</td></tr>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">2교시</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">확률과 통계</td><td class="px-3 py-2 font-medium">2-C</td></tr>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">3교시</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">수학2</td></tr>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">4교시</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td></tr>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">5교시</td><td class="px-3 py-2 font-medium">일본어</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">진로</td><td class="px-3 py-2 font-medium">2-A</td><td class="px-3 py-2 font-medium">창체</td></tr>
-              <tr class="border-b"><td class="px-3 py-2 text-center text-pink-600">6교시</td><td class="px-3 py-2 font-medium">2-B</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">영어2</td><td class="px-3 py-2 font-medium">수학2</td><td class="px-3 py-2 font-medium">창체</td></tr>
-              <tr><td class="px-3 py-2 text-center text-pink-600">7교시</td><td class="px-3 py-2 font-medium">체육</td><td class="px-3 py-2 font-medium">독서</td><td class="px-3 py-2 font-medium">2-C</td><td class="px-3 py-2 font-medium">-</td><td class="px-3 py-2 font-medium">-</td></tr>
-            </tbody>
-            </table>
-          </div>
-        </section>
-        <!-- 오른쪽: 급식 -->
-        <section class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-2xl font-bold text-pink-700 mb-4">급식 🤍</h2>
-          <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
-                  class="w-full h-[400px] rounded-xl border"
-                  frameborder="0"></iframe>
+<!-- PC/tablet 전용 (기존 표) -->
+<div class="hidden lg:block mt-4 overflow-x-auto">
+  <table class="w-full text-left border rounded-xl">
+    <thead>
+      <tr class="bg-pink-200">
+        <th class="px-2 py-1.5">교시</th>
+        <th class="px-2 py-1.5">월</th>
+        <th class="px-2 py-1.5">화</th>
+        <th class="px-2 py-1.5">수</th>
+        <th class="px-2 py-1.5">목</th>
+        <th class="px-2 py-1.5">금</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">1교시</td><td>H.R</td><td>확률과 통계</td><td>2-A</td><td>독서</td><td>영어2</td></tr>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">2교시</td><td>독서</td><td>2-A</td><td>수학2</td><td>확률과 통계</td><td>2-C</td></tr>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">3교시</td><td>영어2</td><td>수학2</td><td>독서</td><td>2-C</td><td>수학2</td></tr>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">4교시</td><td>2-A</td><td>영어2</td><td>2-B</td><td>일본어</td><td>2-B</td></tr>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">5교시</td><td>일본어</td><td>2-B</td><td>진로</td><td>2-A</td><td>창체</td></tr>
+      <tr class="border-b"><td class="px-2 py-1.5 text-center text-pink-600">6교시</td><td>2-B</td><td>2-C</td><td>영어2</td><td>수학2</td><td>창체</td></tr>
+      <tr><td class="px-2 py-1.5 text-center text-pink-600">7교시</td><td>체육</td><td>독서</td><td>2-C</td><td>-</td><td>-</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 모바일 전용 (요일별 카드) -->
+<div class="lg:hidden space-y-4 mt-4 text-sm">
+  <!-- 월요일 -->
+  <div class="bg-white rounded-xl shadow p-3">
+    <h3 class="font-bold text-pink-600">월요일</h3>
+    <ul class="mt-2 space-y-1">
+      <li>1교시: H.R</li>
+      <li>2교시: 독서</li>
+      <li>3교시: 영어2</li>
+      <li>4교시: 2-A</li>
+      <li>5교시: 일본어</li>
+      <li>6교시: 2-B</li>
+      <li>7교시: 체육</li>
+    </ul>
+  </div>
+  <!-- 화요일 -->
+  <div class="bg-white rounded-xl shadow p-3">
+    <h3 class="font-bold text-pink-600">화요일</h3>
+    <ul class="mt-2 space-y-1">
+      <li>1교시: 확률과 통계</li>
+      <li>2교시: 2-A</li>
+      <li>3교시: 수학2</li>
+      <li>4교시: 영어2</li>
+      <li>5교시: 2-B</li>
+      <li>6교시: 2-C</li>
+      <li>7교시: 독서</li>
+    </ul>
+  </div>
+  <!-- 수요일 -->
+  <div class="bg-white rounded-xl shadow p-3">
+    <h3 class="font-bold text-pink-600">수요일</h3>
+    <ul class="mt-2 space-y-1">
+      <li>1교시: 2-A</li>
+      <li>2교시: 수학2</li>
+      <li>3교시: 독서</li>
+      <li>4교시: 2-B</li>
+      <li>5교시: 진로</li>
+      <li>6교시: 영어2</li>
+      <li>7교시: 2-C</li>
+    </ul>
+  </div>
+  <!-- 목요일 -->
+  <div class="bg-white rounded-xl shadow p-3">
+    <h3 class="font-bold text-pink-600">목요일</h3>
+    <ul class="mt-2 space-y-1">
+      <li>1교시: 독서</li>
+      <li>2교시: 확률과 통계</li>
+      <li>3교시: 2-C</li>
+      <li>4교시: 일본어</li>
+      <li>5교시: 2-A</li>
+      <li>6교시: 수학2</li>
+      <li>7교시: -</li>
+    </ul>
+  </div>
+  <!-- 금요일 -->
+  <div class="bg-white rounded-xl shadow p-3">
+    <h3 class="font-bold text-pink-600">금요일</h3>
+    <ul class="mt-2 space-y-1">
+      <li>1교시: 영어2</li>
+      <li>2교시: 2-C</li>
+      <li>3교시: 수학2</li>
+      <li>4교시: 2-B</li>
+      <li>5교시: 창체</li>
+      <li>6교시: 창체</li>
+      <li>7교시: -</li>
+    </ul>
+  </div>
+  <section class="bg-white rounded-2xl shadow p-6">
+  <h2 class="text-xl font-bold text-pink-600 mb-2">오늘의 급식</h2>
+  <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden; border:1px solid #ddd; border-radius:8px;">
+    <iframe
+      src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;">
+    </iframe>
+  </div>
         </section>
       </div>
     </main>
