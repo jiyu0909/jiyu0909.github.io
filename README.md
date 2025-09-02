@@ -175,10 +175,7 @@
                   frameborder="0"></iframe>
         </section>
       </div>
-      src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
-      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;">
-    </iframe>
-  </div>
+
         </section>
       </div>
     </main>
