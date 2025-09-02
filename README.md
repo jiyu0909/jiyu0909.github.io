@@ -173,8 +173,6 @@
           <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
                   class="w-full h-[400px] mt-4 rounded-xl border"
                   frameborder="0"></iframe>
-        </section>
-      </div>
     </main>
     <!-- 시험 범위 -->
     <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
