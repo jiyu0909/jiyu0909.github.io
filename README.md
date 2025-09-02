@@ -197,7 +197,7 @@
             <tr class="border-b"><td class="px-3 py-2 font-medium">윤사</td><td></td></tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">진로영어</td><td></td></tr>
             <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>
-            </td>1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제 ❌<br>
+            1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 장문 문항 출제❌<br>
                 2. 25학년도 9월 전국연합 18~40번<br>
                 3. 외부지문 5문제</td>
             </tr>
