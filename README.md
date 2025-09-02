@@ -180,7 +180,7 @@
       </div>
     </main>
     <!-- 시험 범위 -->
-    <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6 mt-6">
+    <section class="lg:col-span-3 bg-white rounded-2xl shadow p-3 mt-3">
       <h2 class="text-2xl font-bold text-pink-700 mb-4">시험 범위 🤍</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-left border rounded-xl">
