@@ -175,9 +175,6 @@
                   frameborder="0"></iframe>
         </section>
       </div>
-
-        </section>
-      </div>
     </main>
     <!-- 시험 범위 -->
     <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
