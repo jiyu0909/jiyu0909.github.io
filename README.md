@@ -2,6 +2,8 @@
 <!doctype html>
 <html lang="ko">
 <head>
+  <title>우리 반 사이트</title>
+<h1>환영합니다! 우리 9반을 위한 페이지입니다.</h1>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2-9반 알리미🤍</title>
